@@ -1,0 +1,12 @@
+<ion-view view-title="Peut parler" ng-controller="CameraController">
+  <ion-content>
+    <img class="center" ng-show="image.imgURI === undefined" src="img/dead-man.png" style="width: {{ iframeWidth }}px; height: {{ iframeHeight }}px"/>
+    <canvas id="opCanvas"></canvas>
+  </ion-content>
+
+  <ion-footer-bar>
+    <button class="button button-positive" style="margin: 0 auto;" ng-click="takePicture()">
+      <img src="img/ic_camera_enhance_white_48dp_1x.png" height="32" width="32"/>
+    </button>
+  </ion-footer-bar>
+</ion-view>

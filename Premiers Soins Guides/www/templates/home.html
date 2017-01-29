@@ -1,0 +1,30 @@
+<ion-view view-title="Premiers Soins">
+  <ion-content>
+    <ion-list>
+
+      <ion-list-header>
+        <!-- <img style="margin-left: 10px;" src="img/ic_favorite_black_48dp_1x.png" height="16px" width="16px"/> -->
+        <ion-label class="padding-left" style="display: inline-block;"><h5 class="title" style="margin: 0;">CARDIAQUE</h5></ion-label>
+      </ion-list-header>
+      <div class="cardiaque" ng-controller="HeartController">
+        <ion-item ng-click="avecRespiration()" ion-item tappable>
+          Avec respiration
+        </ion-item>
+        <ion-item ng-click="sansRespiration()" ion-item tappable>Sans respiration</ion-item>
+      </div>
+
+    </ion-list>
+
+    <ion-list>
+
+      <ion-list-header>
+        <ion-label class="padding-left"><h5 class="title" style="margin: 0;">ETOUFFEMENT</h5></ion-label>
+      </ion-list-header>
+      <div class="etouffement" ng-controller="EtouffementController">
+        <ion-item ng-click="avecSons()" ion-item tappable>Peut parler</ion-item>
+        <ion-item ng-click="sansSons()" ion-item tappable>Ne peut pas parler</ion-item>
+      </div>
+
+    </ion-list>
+  </ion-content>
+</ion-view>

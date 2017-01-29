@@ -1,0 +1,12 @@
+/* Empty. Add your own CSS if you like */
+
+img.center {
+  display: block;
+  margin: 0 auto;
+}
+
+img.hands {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
