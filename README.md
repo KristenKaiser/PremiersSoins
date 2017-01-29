@@ -1,8 +1,8 @@
 #+TITLE: Premiers Soins Guidee, Les gestes qui sauvent, mains dans la mains.
 
 * Contents :TOC:noexport:
- - [[#introduction][Introduction]]
- - [[#installation][Installation]]
+ - [[#Introduction][Introduction]]
+ - [[#Installation][Installation]]
    - [[#manual-installation][Manual installation]]
 
 * Introduction
