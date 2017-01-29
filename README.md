@@ -13,4 +13,5 @@ P.S.G est une application Ionic qui allie reconnaicance de forme et realite augm
 - Clonage du repo:
 
   $ cd /path/to/install/folder
+  
   $ git clone https://github.com/KristenPire/PremiersSoins
